@@ -10,6 +10,14 @@ brew tap 12amcoffee/breakbar
 brew install --cask breakbar
 ```
 
+Recent versions of Homebrew refuse to load casks from third-party taps until you trust them. If you
+see `Refusing to load cask … from untrusted tap`, run this once and then install again:
+
+```bash
+brew trust 12amcoffee/breakbar
+brew install --cask breakbar
+```
+
 ## Update
 
 ```bash
