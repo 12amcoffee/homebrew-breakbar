@@ -1,6 +1,6 @@
 cask "breakbar" do
-  version "0.1.1"
-  sha256 "8b937c518d927bae33f976d0162b9a0b48c9cf8f94538903d29d18cd77228674"
+  version "0.1.2"
+  sha256 "c90b8772b8a1fc27087df2e04eee82ab6f5d38f66cab59ca9b8c3412816d3857"
 
   url "https://github.com/12amcoffee/BreakBar/releases/download/v#{version}/BreakBar-#{version}.zip"
   name "BreakBar"
